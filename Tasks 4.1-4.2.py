@@ -19,12 +19,14 @@ print('task 4.2')
 small = bool(random.randint(0, 1))
 green = bool(random.randint(0, 1))
 print(f'{small = } {green = }')
-if small:
-    if green:
-        print('peas')
-    else:
-        print('cherry')
-elif green:
+if small and green:
+    print('peas')
+elif not small and not green:
     print('watermelon')
-else:
+elif small and not green:
+    print('cherry')
+elif not small and green:
     print('pumpkin')
+
+
+
