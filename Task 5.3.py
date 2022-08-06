@@ -1,10 +1,4 @@
-print("My kitty cat likes %s" % 'roast beef')
-print("My kitty cat likes %s" % 'ham')
-print("My kitty cat likes %s" % 'head')
-print("My kitty cat likes %s" % 'clam\n')
-
-
-print("My kitty cat likes %s" % "roast beef\n",
-      "My kitty cat likes %s" % "ham\n",
-      "My kitty cat likes %s" % "head\n",
-      "My kitty cat likes %s" % "clam\n", sep='')
+print("My kitty cat likes %s" % "roast beef",
+      "My kitty cat likes %s" % "ham",
+      "My kitty cat fell on his %s" % "head",
+      "And now thinks he's a %s" % "clam", sep='\n')
