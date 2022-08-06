@@ -4,7 +4,9 @@ song = """When an eel grabs your arm,
 And it causes great harm,
 That's - a moray!"""
 #acsii = string.ascii_letters
-for letter in string.punctuation:
+for letter in string.punctuation.replace("'", ""):
     song = song.replace(letter, '')
-
-print(song.split())
+words = song.split()
+for word in words:
+    if word[0] == 'm':
+        print(word.capitalize())
