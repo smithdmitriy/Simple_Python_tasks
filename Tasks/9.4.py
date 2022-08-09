@@ -6,7 +6,7 @@
 class OopsException(Exception):
     pass
 
-text = input("Your text (not digit)\n")
+text = input("Your text (not only digit)\n")
 try:
     if text.isdigit():
         raise OopsException(text)
