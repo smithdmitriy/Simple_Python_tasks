@@ -20,6 +20,7 @@ class Smartphone:
     def does(self):
         return 'ring'
 
+
 class Robot:
     def __init__(self):
         self.laser = Laser()
@@ -28,6 +29,7 @@ class Robot:
 
     def does(self):
         return f"{self.laser.does()}, {self.claw.does()}, {self.smartphone.does()}"
+
 
 robby = Robot()
 print(task_text)
