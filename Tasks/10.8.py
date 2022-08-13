@@ -44,6 +44,5 @@ dict1 = {'name': 'Hydrogen',
          'symbol': 'H',
          'number': 1}
 hydrogen = Element(**dict1)
-print(f"{hydrogen.number = }")
 print(task_text)
 print(hydrogen)
