@@ -12,8 +12,6 @@ class Element:
         self.number = number
 
 
-pass
-
 dict1 = {'name': 'Hydrogen',
          'symbol': 'H',
          'number': 1}
