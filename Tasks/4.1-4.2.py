@@ -27,6 +27,3 @@ elif small and not green:
     print('cherry')
 elif not small and green:
     print('pumpkin')
-
-
-
