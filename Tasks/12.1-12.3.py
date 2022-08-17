@@ -1,12 +1,9 @@
+import unicodedata
 task_text = r""" 
 12.1. Создайте строку Unicode с именем mystery и присвойте ей значение '\U0001f4a9'. 
       Выведите на экран значение строки mystery. Выведите на экран значение переменной mystery и ее имя Unicode.
 """
-
-import unicodedata
-
 mystery = '\U0001f4a9'
-
 print(task_text)
 print(f"{mystery} {unicodedata.name(mystery)}")
 task_text = r""" 
@@ -24,4 +21,4 @@ task_text = r"""
 pop_string = pop_bytes.decode("utf-8")
 print(task_text)
 print(pop_string)
-print(mystery==pop_string)
+print(mystery == pop_string)
